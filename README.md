@@ -75,6 +75,9 @@ chmod +x run.bash
 ```bash
 ./run.bash --container-name <your_container_name> --cfg-dir $PWD/workspace/cfg_experiment --image-name <your_image_name> --poses-dir $PWD/workspace/colmap_output --ckpt $PWD/workspace/weight.ckpt
 ```
+6)b if you want to reopen the container : sudo docker start <container-name> 
+sudo docker exec -it <container-name> /bin/bash
+
 
 7) Now you are inside the container. First, prepare the dataset for DFNet training:
 
