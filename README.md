@@ -1,4 +1,4 @@
-# HAL-NeRF v2.0
+# HAL-NeRF v2.0b
 
 Dockerized High Accuracy Localization application based on Loc-NeRF (https://arxiv.org/abs/2209.09050) and using Nerfacto model (https://docs.nerf.studio/nerfology/methods/nerfacto.html) as the base NeRF model. 
 
